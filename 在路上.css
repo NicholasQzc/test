@@ -1,0 +1,50 @@
+html{
+    background-image:url(images/background.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+body{
+    margin: 0;
+}
+.header{
+    display: block;
+    font-size: 39px;
+    height: 100px;
+}
+.pic{
+    float: left;
+}
+.words p{
+    margin: 0;
+    margin-top: 56px;
+    float: left;
+    -webkit-text-stroke: 1px black;
+        -webkit-text-fill-color: transparent;
+}
+.leader{
+    height: 100px;
+    font-size: 50px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline;
+}
+.list{
+    padding-left: 500px;
+}
+.first{
+    padding-right: 200px;
+    z-index: 100;
+}
+.first a:link{
+    text-decoration: none;
+}
+.name{
+    background: linear-gradient(to bottom,white,pink);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        z-index: 100;
+}

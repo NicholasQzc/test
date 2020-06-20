@@ -1,0 +1,79 @@
+html{
+    background-image:url(images/故里.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body{
+    margin: 0;
+    height: 600px;
+}
+.header{
+    display: block;
+    font-size: 39px;
+    height: 100px;
+}
+.pic{
+    float: left;
+}
+.words p{
+    margin: 0;
+    margin-top: 56px;
+    float: left;
+    -webkit-text-stroke: 1px black;
+        -webkit-text-fill-color: transparent;
+}
+.words a:link{
+    text-decoration: none;
+}
+.inner{
+    height: 700px;
+    background-color: aliceblue;
+    opacity: 0.5;
+    z-index: -1;
+}
+.container1{
+    height: 140px;
+    margin-top: 2px;
+}
+.container1 p{
+    margin-top: 0px;
+    font-size: 25px;
+    float: left;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+.container2{
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+}
+.container2 img{
+    opacity: 1;
+    z-index: 100;
+    margin-top: 0;
+}
+.container2 p{
+    margin-top: 0;
+}
+.container3{
+    width: 500px;
+    opacity: 1;
+}
+.container4{
+    width: 400px;
+    opacity: 1;
+    z-index: 100;
+}
+.container4 p{
+    text-align: center;
+    font-size: 50px;
+}
